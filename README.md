@@ -134,25 +134,25 @@ python -m pytest tests/
 ```
 MOZILLA_PROFILE_MANAGER/
 ├── src/
-│   ├── profile_manager.py    # Main application logic
-│   ├── profile.py             # Profile class and operations
-│   ├── config.py              # Configuration management
-│   └── utils.py               # Utility functions
+│   ├── profile_manager.py  # Main application logic
+│   ├── profile.py          # Profile class and operations
+│   ├── config.py           # Configuration management
+│   └── utils.py            # Utility functions
 ├── tests/
-│   ├── test_profile.py        # Profile tests
-│   └── test_manager.py        # Manager tests
-├── docs/                      # Documentation
-├── LICENSE                    # MIT License
-├── README.md                  # This file
-└── requirements.txt           # Dependencies
+│   ├── test_profile.py     # Profile tests
+│   └── test_manager.py     # Manager tests
+├── docs/                   # Documentation
+├── LICENSE                 # MIT License
+├── README.md               # This file
+└── requirements.txt        # Dependencies
 ```
 
 ### Current Repository Structure
 
 ```
 MOZILLA_PROFILE_MANAGER/
-├── LICENSE                    # MIT License
-└── README.md                  # This file
+├── LICENSE     # MIT License
+└── README.md   # This file
 ```
 
 ## Contributing
