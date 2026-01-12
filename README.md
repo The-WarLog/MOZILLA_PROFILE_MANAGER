@@ -1,38 +1,46 @@
 # Mozilla Profile Manager
 
+> **⚠️ Note**: This project is in the planning stage. The features and code described below represent the intended functionality and are not yet implemented.
+
 A command-line tool for managing Mozilla Firefox and Thunderbird profiles. Easily create, switch, backup, and manage multiple browser profiles.
 
 ## Overview
 
-Mozilla Profile Manager is designed to simplify the management of Firefox and Thunderbird profiles. Whether you need separate profiles for work and personal use, testing different configurations, or managing profiles for multiple users, this tool provides a streamlined interface for profile operations.
+Mozilla Profile Manager will be designed to simplify the management of Firefox and Thunderbird profiles. Whether you need separate profiles for work and personal use, testing different configurations, or managing profiles for multiple users, this tool will provide a streamlined interface for profile operations.
 
-## Features
+## Planned Features
 
 - **Profile Creation**: Create new profiles with custom names and configurations
 - **Profile Switching**: Quickly switch between different profiles
 - **Profile Backup**: Backup and restore profile data
 - **Profile Management**: List, rename, and delete profiles
-- **Cross-Platform**: Works on Windows, macOS, and Linux
+- **Cross-Platform**: Support for Windows, macOS, and Linux
 - **Command-Line Interface**: Easy-to-use CLI for automation and scripting
 
 ## Installation
 
-### Prerequisites
+> **Note**: Installation instructions are not yet available as the project is under development.
+
+### Planned Prerequisites
 
 - Python 3.7 or higher
 - Mozilla Firefox or Thunderbird installed
 
-### Install from Source
+### Future Installation Steps
+
+Once implemented, installation will be:
 
 ```bash
 git clone https://github.com/The-WarLog/MOZILLA_PROFILE_MANAGER.git
 cd MOZILLA_PROFILE_MANAGER
-pip install -r requirements.txt
+pip install -r requirements.txt  # To be added
 ```
 
-## Usage
+## Planned Usage
 
-### Basic Commands
+> **Note**: The tool is not yet implemented. Below are the planned commands.
+
+### Planned Basic Commands
 
 ```bash
 # List all available profiles
@@ -54,7 +62,7 @@ python profile_manager.py restore <backup_path> <profile_name>
 python profile_manager.py delete <profile_name>
 ```
 
-### Examples
+### Example Usage (Planned)
 
 ```bash
 # Create a profile for work
@@ -78,9 +86,9 @@ Profiles are stored in the following default locations:
 - **macOS**: `~/Library/Application Support/Firefox/Profiles/`
 - **Linux**: `~/.mozilla/firefox/`
 
-## Configuration
+## Planned Configuration
 
-You can customize the profile manager behavior by editing the `config.ini` file:
+The tool will support customization through a `config.ini` file:
 
 ```ini
 [General]
@@ -96,7 +104,13 @@ profiles_path = auto
 
 ## Development
 
-### Setting Up Development Environment
+### Current Status
+
+The repository is currently in the planning phase. Contributors are welcome to help implement the planned features.
+
+### Future Development Setup
+
+Once the project structure is in place:
 
 ```bash
 # Clone the repository
@@ -107,15 +121,15 @@ cd MOZILLA_PROFILE_MANAGER
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Install dependencies
+# Install dependencies (to be added)
 pip install -r requirements.txt
 pip install -r requirements-dev.txt
 
-# Run tests
+# Run tests (to be added)
 python -m pytest tests/
 ```
 
-### Project Structure
+### Planned Project Structure
 
 ```
 MOZILLA_PROFILE_MANAGER/
@@ -131,6 +145,14 @@ MOZILLA_PROFILE_MANAGER/
 ├── LICENSE                    # MIT License
 ├── README.md                  # This file
 └── requirements.txt           # Dependencies
+```
+
+### Current Repository Structure
+
+```
+MOZILLA_PROFILE_MANAGER/
+├── LICENSE                    # MIT License
+└── README.md                  # This file
 ```
 
 ## Contributing
@@ -170,6 +192,21 @@ python profile_manager.py backup work-profile C:/backups/work-profile
 
 ## Roadmap
 
+### Phase 1: Core Implementation (Planned)
+- [ ] Basic profile listing functionality
+- [ ] Profile creation and deletion
+- [ ] Profile launching
+- [ ] Cross-platform path detection
+- [ ] Basic CLI interface
+- [ ] Unit tests
+
+### Phase 2: Enhanced Features (Future)
+- [ ] Profile backup and restore
+- [ ] Configuration file support
+- [ ] Profile renaming
+- [ ] Better error handling and logging
+
+### Phase 3: Advanced Features (Future)
 - [ ] GUI interface for profile management
 - [ ] Profile synchronization across devices
 - [ ] Profile templates for common configurations
@@ -199,4 +236,16 @@ This tool is not officially affiliated with Mozilla. Firefox and Thunderbird are
 
 ---
 
-**Note**: This project is currently in development. Features and documentation may change.
+## Project Status
+
+**Current Phase**: Planning and Design
+
+This project is currently in the early planning stage. The README describes the intended functionality and architecture. Contributions are welcome to help implement these features!
+
+### How to Get Involved
+
+1. Check the [Roadmap](#roadmap) for planned features
+2. Open an issue to discuss implementation details
+3. Submit a pull request with your contributions
+
+**Note**: All features described in this README are planned and not yet implemented.
